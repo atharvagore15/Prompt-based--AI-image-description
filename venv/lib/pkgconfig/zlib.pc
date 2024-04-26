@@ -1,0 +1,13 @@
+prefix=/Users/atharva/Desktop/Data/Coursera assigns/GeminPro/venv
+exec_prefix=/Users/atharva/Desktop/Data/Coursera assigns/GeminPro/venv
+libdir=/Users/atharva/Desktop/Data/Coursera assigns/GeminPro/venv/lib
+sharedlibdir=/Users/atharva/Desktop/Data/Coursera assigns/GeminPro/venv/lib
+includedir=/Users/atharva/Desktop/Data/Coursera assigns/GeminPro/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
